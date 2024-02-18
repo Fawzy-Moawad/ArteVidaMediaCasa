@@ -153,8 +153,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const aboutContentEs = document.getElementById('about-content-es');
     const servicesContentEn = document.getElementById('services-content-en');
     const servicesContentEs = document.getElementById('services-content-es');
-    const ourWorksContentEn = document.getElementById('ourWorks-content-en');
-    const ourWorksContentEs = document.getElementById('ourWorks-content-es');
     const contactContentEn = document.getElementById('contact-content-en');
     const contactContentEs = document.getElementById('contact-content-es');
     const heroContentEn = document.getElementById('hero-content-en');
@@ -169,8 +167,6 @@ document.addEventListener('DOMContentLoaded', function () {
       aboutContentEs.style.display = 'none';
       servicesContentEn.style.display = 'block';
       servicesContentEs.style.display = 'none';
-      ourWorksContentEn.style.display = 'block';
-      ourWorksContentEs.style.display = 'none';
       contactContentEn.style.display = 'block';
       contactContentEs.style.display = 'none';
       heroContentEn.style.display = 'block';
@@ -184,8 +180,6 @@ document.addEventListener('DOMContentLoaded', function () {
       aboutContentEs.style.display = 'block';
       servicesContentEn.style.display = 'none';
       servicesContentEs.style.display = 'block';
-      ourWorksContentEn.style.display = 'none';
-      ourWorksContentEs.style.display = 'block';
       contactContentEn.style.display = 'none';
       contactContentEs.style.display = 'block';
       heroContentEn.style.display = 'none';

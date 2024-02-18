@@ -691,7 +691,7 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   padding-top: 0px;
 }
@@ -754,7 +754,7 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
@@ -899,57 +899,6 @@ h2 {
   }
 }
 
-
-/*-------------------------------------------------------------
-#Our Works
---------------------------------------------------------------*/
-#ourWorks {
-  background-image: url('../img/bg.jpg');
-  background-color: rgba(0, 0, 0, 0.3); /* Adjust the last value (0.5) to change the opacity */
-  background-blend-mode: multiply; /* This ensures that the background color blends with the background image */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  padding-top: 0px;
-}
-
-
-#ourWorks .container .row svg{
-  color: #4E93BD;
-}
-
-#ourWorks .container .row h2{
-  color: #4E93BD;
-  font-size: 60px;
-  font-weight: 700
-}
-
-#ourWorks .container .row h5{
-  color: #4E93BD;
-  font-size: 23px;
-  font-weight: 700
-}
-
-#ourWorks .container .row p{
-  color: #fff;
-  font-size: 19px;
-  
-}
-
-@media (max-width: 768px) {
-  #ourWorks .container .row h2 {
-    font-size: 30px; 
-  }
-  #ourWorks .container p {
-    font-size: 15px; 
-  }
-  #ourWorks .container .row h5 {
-    font-size: 20px; 
-  }
-}
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -960,7 +909,7 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 100vh;
   width: 100%;
   padding-top: 0px;
 }
