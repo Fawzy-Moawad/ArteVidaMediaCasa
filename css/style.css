@@ -99,7 +99,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #4E93BD;
+  background: rgb(13,20,24);
   color: #fff;
 }
 
@@ -723,12 +723,12 @@ h6 {
 
 h2 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 50px;
 }
 
 #about p {
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 23px;
   color: #fff;
 }
 
@@ -750,22 +750,22 @@ h2 {
 #services {
   background-image: url('../img/bg.jpg');
   background-color: rgba(0, 0, 0, 0.3); /* Adjust the last value (0.5) to change the opacity */
-  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
 }
 
-#services h2 {
+#services .container .title-box h2 {
   color: #4E93BD;
+  font-size: 50px;
 }
 
 #services p {
   color: #fff;
-  font-size: 20px;
-  font-weight: 700
+  font-size: 23px;
+  font-weight: 500;
 }
 
 .card-service-1 {
@@ -888,12 +888,12 @@ h2 {
     .title {
       margin: 0;
       padding: 20px;
-      font-size: 23px;
+      font-size: 20px;
       line-height: .9;
       color: rgba(0, 0, 0, 0.87);
     }
     .description {
-      font-size: 18px;
+      font-size: 15px;
       line-height: 1.5;
     }
   }
@@ -916,156 +916,22 @@ h2 {
 
 #contact h2 {
   color: #4E93BD;
+  font-size: 3.125rem; /* Adjust font size using rem */
 }
 
 #contact .container .section-title p {
   color: #fff;
-  font-size: 20px;
-}
-.contact .info-wrap {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  background-color: #6E9DBA;
-  cursor: pointer;
-  font-size: small;
+  font-size: 1.563rem; /* Adjust font size using rem */
+  font-weight: 500;
 }
 
-
-.contact .info {
-  background: #6E9DBA;
-}
-
-.contact .info i {
-  font-size: 20px;
-  color: #011d34;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #BAD0F5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 5px;
-  color: #000000;
-  font-family: "Poppins", sans-serif;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-weight: 400;
-  font-size: 15px;
-  color: #fff;
-}
-
-.contact .info:hover i {
-  background: #BAD0F5;
-  color: #fff;
-}
-
-.contact form {
-  width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  padding: 30px;
-  background: #6E9DBA;
-}
-
-.contact .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact input,
-.contact textarea {
-  background-color: #a7c5ee;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact input {
-  height: 44px;
-}
-
-.contact textarea {
-  padding: 10px 12px;
-}
-
-.contact button[type=submit] {
-  background: #AEC6EA;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact button[type=submit]:hover {
-  background: #2b83ac;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 @media (max-width: 768px) {
-  #contact .container .section-title h2 {
-    font-size: 30px; 
-  }
   #contact .container .section-title p {
-    font-size: 15px; 
+    font-size: 1rem; /* Adjust font size using rem */
   }
 }
+
 
 /*--------------------------------------------------------------
 # Footer
